@@ -30,7 +30,7 @@ public class Hud implements Disposable {
 
         levelLabel = new Label("1-1", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
         worldLabel = new Label("World", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
-        yasuoLabel = new Label("Loz Wjbu rack", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
+        yasuoLabel = new Label("Demo", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
 
         table.add(yasuoLabel).expandX();
         table.add(worldLabel).expandX();

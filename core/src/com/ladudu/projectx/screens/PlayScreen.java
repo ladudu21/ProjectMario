@@ -162,9 +162,8 @@ public class PlayScreen implements Screen{
 
         renderer.render();
 
-        b2dr.render(world, gameCam.combined);
+        //b2dr.render(world, gameCam.combined);
 
-        //if (Gdx.app.getType() == Application.ApplicationType.Android) controller.draw();
         controller.draw();
 
         game.batch.setProjectionMatrix(gameCam.combined);
